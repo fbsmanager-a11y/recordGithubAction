@@ -8,6 +8,13 @@ jobs:
     steps:
       
       - uses: actions/checkout@v2
+
+      # (2) Python 설치
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          
       - name: 파이썬 실행!!
         run: python test.py
       - name: 파일 찾지!!
