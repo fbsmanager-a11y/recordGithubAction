@@ -11,4 +11,4 @@ jobs:
       - name: 파이썬 실행!!
         run: python .github/workflows/test.py
       - name: 파일 찾기!!
-        run: find /-name 'test.py'
+        run: find /-name '.github/workflows/test.py'
