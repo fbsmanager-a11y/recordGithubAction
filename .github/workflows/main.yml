@@ -12,6 +12,6 @@ jobs:
     - name: 2. 파이썬 패키지 확인
       run: pip list
     - name: 3. 파이썬 실행
-      run:  python .github/workflows/test.py
+      run:  python test.py
       
       
