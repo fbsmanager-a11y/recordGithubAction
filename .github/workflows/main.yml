@@ -1,8 +1,8 @@
 name: helloGithubAction
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'
+# push가 일어났을 경우 아래 jobs 실행
+# [push, pull_request] 등과 같이 다중 이벤트 처리 가능(아래 페이지 참고)
+on: [push]
 
 jobs:
   build:
