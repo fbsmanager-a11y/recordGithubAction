@@ -4,7 +4,7 @@ name: helloGithubAction
 # [push, pull_request] 등과 같이 다중 이벤트 처리 가능(아래 페이지 참고)
 on:
   schedule:
-    - cron: "*/10 * * * *"  # UTC 기준, 10분마다
+    - cron: "*/10 * * * *"  # UTC 기준, 10분마다 
 jobs:
   build:
     runs-on: ubuntu-latest
