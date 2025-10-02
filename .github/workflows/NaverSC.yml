@@ -3,7 +3,7 @@ name: helloGithubActionNaver
 
 on:
   schedule:
-    - cron: "*/70 * * * *"  # UTC 기준, 70분마다 
+    - cron: "*/59 * * * *"  # UTC 기준, 70분마다 
 
 jobs:
   build:
