@@ -1,7 +1,9 @@
 # gitactions 이름
 name: helloGithubActionNaver
 
-on: [push]
+on:
+  schedule:
+    - cron: "*/70 * * * *"  # UTC 기준, 70분마다 
 
 jobs:
   build:
