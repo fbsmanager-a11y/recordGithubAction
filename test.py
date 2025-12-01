@@ -6,6 +6,7 @@ response = requests.get(url)
 response.encoding = 'utf-8'
 html = response.text
 
+
 soup = BeautifulSoup(html, 'html.parser')
 #class="fig-w1hthz e7z8ge71"
 bookservices = soup.select('.fig-w1hthz')
